@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toast Notification</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/2e9c98021c.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="https://e7.pngegg.com/pngimages/611/697/png-clipart-emergency-notification-system-push-technology-email-message-alarm-miscellaneous-electronics.png" type="image/x-icon">
+
+</head>
+<body>
+    <div class="buttons">
+        <button onclick="showToast(successMsg)">Success</button>
+        <button onclick="showToast(errorMsg)">Error</button>
+        <button onclick="showToast(invalidMsg)">Invalid</button>
+
+    </div>
+
+    <div class="display">
+        <p>Notification bar </p>
+    </div>
+
+    <div id="toastBox"></div>
+<script src="./script.js"></script>
+</body>
+</html>

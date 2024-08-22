@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier Prime', monospace;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: black;
+    
+}
+
+.input-box{
+    width: 400px;
+    max-width: 90%;
+    position: relative;
+    display: flex;
+    border: 3px solid white;
+}
+
+.input-box input{
+    width: 100%;
+    height: 60px;
+    padding: 0 20px;
+    border: 1px solid #ccc;
+    outline: none;
+    color: #FFF;
+    background: transparent;
+}
+
+button{
+    background: transparent;
+    border: 0;
+    outline: none;
+    border-radius: 50%;
+    position: absolute;
+    cursor: pointer;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 15px ;
+}
+
+button img{
+    width: 35px;
+    margin-top: 4px;
+}
+
+#message{
+    position: absolute;
+    bottom: -30px;
+    color: #FFF;
+    font-size: 15px;
+    display: none;
+}
+
+::placeholder{
+    font-size: 15px;
+}
